@@ -3,9 +3,11 @@ package com.devmahmud.complainmanagement.service.impl;
 import com.devmahmud.complainmanagement.entity.Complain;
 import com.devmahmud.complainmanagement.repository.ComplainRepository;
 import com.devmahmud.complainmanagement.service.ComplainService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ComplainServiceImpl implements ComplainService {
     private final ComplainRepository complainRepository;
 
